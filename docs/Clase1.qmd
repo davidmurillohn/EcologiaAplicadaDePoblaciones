@@ -19,3 +19,5 @@ Asegurece de que R base y R studio esten bien instalados antes de comenzar con e
 ### Comandos basicos de R
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
+
+Actualizando
