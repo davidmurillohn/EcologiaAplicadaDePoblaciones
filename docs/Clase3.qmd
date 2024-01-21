@@ -1,0 +1,21 @@
+---
+title: "Clase3"
+format: html
+editor: visual
+---
+
+En la tercera sesión, se explorarán los estimadores de población, partiendo desde el modelo más básico:
+
+$$N(t+1) = N(t)R$$
+
+Se abordará la determinación del tamaño poblacional en un tiempo dado:
+
+$$N(t)= N(0) \times R^t$$
+
+Examinaremos los estimadores de tamaño poblacional mediante el método de captura-recaptura:
+
+$$\hat{N} = \frac{n_1 \times n_2}{m}$$
+
+Además, se revisarán los estimadores de abundancia empleando el conteo por puntos y transectos. Estos métodos serán prácticados directamente en RStudio, mediante la creación de funciones desde cero.
+
+![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
