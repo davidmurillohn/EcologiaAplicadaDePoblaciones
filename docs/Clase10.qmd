@@ -9,3 +9,5 @@ En esta clase, nos sumergiremos en el fascinante mundo de las metapoblaciones y 
 También ofreceremos una breve introducción a algunos paquetes en R para el análisis de viabilidad poblacional, tales como [popbio](https://www.jstatsoft.org/article/view/v022i11), [popdemo](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2041-210X.2012.00222.x), [mvabund](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2012.00190.x), [dismo](https://rdrr.io/cran/dismo/man/). Estos paquetes proveen herramientas para evaluar medidas de viabilidad poblacional, incluyendo tasas de crecimiento, demografía de poblaciones, análisis multivariado de abundancia, modelado de distribuciones de especies y estimación de la probabilidad de extinción.
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
+
+Actualizando...
