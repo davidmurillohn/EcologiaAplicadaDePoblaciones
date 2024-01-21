@@ -6,7 +6,7 @@ editor: visual
 
 La supervivencia de nidos es un área clave en la ecología de las aves. En términos generales, se mide la probabilidad de que un nido con huevos o crías llegue a producir individuos voladores. El enfoque de Manfield es un método simple que considera la proporción de nidos que tienen éxito.
 
-Por otro lado, el enfoque RMark para la supervivencia de nidos implica modelos más sofisticados, utilizando técnicas estadísticas avanzadas para tener en cuenta variables específicas como el momento de la temporada, el efecto del depredador, la ubicación del nido, entre otros factores. Este método permite análisis detallados y precisos de la supervivencia de los nidos. 
+Por otro lado, el enfoque RMark para la supervivencia de nidos implica modelos más sofisticados, utilizando técnicas estadísticas avanzadas para tener en cuenta variables específicas como el momento de la temporada, el efecto del depredador, la ubicación del nido, entre otros factores. Este método permite análisis detallados y precisos de la supervivencia de los nidos.
 
 Para esta clase utilizaremos el paquete Rmark
 
@@ -19,7 +19,6 @@ Necesitamos también cargar una base de datos que esté correctamente formateada
 ```{r}
 data(mallard)
 ```
-
 
 En ocasiones, será necesario realizar una preparación inicial de nuestros datos antes de proceder.
 
@@ -49,9 +48,7 @@ Model1 <- mark(data= mallard.pr, model= "Nest",
 
 ```
 
-
 Claro, ahora podemos representar los resultados en un gráfico para una interpretación más clara.
-
 
 ```{r, echo=FALSE }
 fc <- find.covariates(Model1,mallard)
@@ -75,6 +72,6 @@ ggplot(AgePpn.survival, aes(x = Age, y = DSR)) +
   theme_bw()
 ```
 
-En el curso se detallara cada uno de los pasos para lograr a desarrollar el modelo, su interpretacion y su implementacion en casos reales. 
+En el curso se detallara cada uno de los pasos para lograr a desarrollar el modelo, su interpretacion y su implementacion en casos reales.
 
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

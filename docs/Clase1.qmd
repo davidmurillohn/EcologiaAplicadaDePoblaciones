@@ -4,15 +4,13 @@ format: html
 editor: visual
 ---
 
-## Temas 
+## Temas
 
 ### Instalacion de R y RStudio
 
-Para descargar e instalar R utilice el siguiente enlace 
-[R base](https://cran.r-project.org/bin/windows/base/)
+Para descargar e instalar R utilice el siguiente enlace [R base](https://cran.r-project.org/bin/windows/base/)
 
-Para descargar e instalar RStudio utilice el siguiente enlace 
-[RStudio](https://posit.co/download/rstudio-desktop/)
+Para descargar e instalar RStudio utilice el siguiente enlace [RStudio](https://posit.co/download/rstudio-desktop/)
 
 Asegurece de que R base y R studio esten bien instalados antes de comenzar con el curso
 
@@ -20,4 +18,4 @@ Asegurece de que R base y R studio esten bien instalados antes de comenzar con e
 
 ### Comandos basicos de R
 
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

@@ -18,4 +18,4 @@ $$\hat{N} = \frac{n_1 \times n_2}{m}$$
 
 Además, se revisarán los estimadores de abundancia empleando el conteo por puntos y transectos. Estos métodos serán prácticados directamente en RStudio, mediante la creación de funciones desde cero.
 
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

@@ -12,15 +12,15 @@ Para esta clase nos basaremos en: [Applied Population Ecology Principles and Com
 
 ### Crecimiento Poblacional
 
-- Definición de población.
-- Límites de supervivencia y reproducción: Nicho y Hábitat.
-- Modelos matemáticos en Ecología de Poblaciones.
-- Natalidad, Mortalidad, Inmigración y Emigración.
-- Crecimiento Poblacional.
+-   Definición de población.
+-   Límites de supervivencia y reproducción: Nicho y Hábitat.
+-   Modelos matemáticos en Ecología de Poblaciones.
+-   Natalidad, Mortalidad, Inmigración y Emigración.
+-   Crecimiento Poblacional.
 
 ### Regulación de Poblaciones
 
-- Efecto de aglomeración (crowding).
-- Tipos de dependencia de la densidad.
+-   Efecto de aglomeración (crowding).
+-   Tipos de dependencia de la densidad.
 
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

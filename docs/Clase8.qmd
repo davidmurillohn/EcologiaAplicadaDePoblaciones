@@ -34,5 +34,4 @@ ea / (pi*25^2)
 summary(fmp1)
 ```
 
-
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

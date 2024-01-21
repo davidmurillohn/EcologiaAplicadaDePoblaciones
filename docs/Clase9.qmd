@@ -14,7 +14,6 @@ En esta clase, vamos a explorar el paquete spAbundance y comparar su implementac
 library(spAbundance)
 ```
 
-
 ```{r, echo=FALSE}
 set.seed(1010)
 J.x <- 15
@@ -57,7 +56,6 @@ n.thin <- 1
 n.chains <- 1
 ```
 
-
 ```{r,}
 Model1 <- abund(formula = ~ abund.cov.1 + abund.cov.2 + abund.cov.3 + 
                          (1 | abund.factor.1),
@@ -77,5 +75,4 @@ Model1 <- abund(formula = ~ abund.cov.1 + abund.cov.2 + abund.cov.3 +
 summary(Model1)
 ```
 
-
-![HN Biology Investigation Academy](HN Cursos publicidad/HN Biology Inv large.jpg)
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
