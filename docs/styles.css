@@ -1,10 +1,10 @@
 body {
   font-family: 'Cerulean', Arial, sans-serif; /* Use the Cerulean theme font or fallback to Arial and sans-serif */
-  font-size: 12px;
+  font-size: 15px;
   color: #000; /* Black text color */
   background-color: #fff; /* White background color */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 14px; /* Set the font size for all heading levels to 14px */
+  font-size: 18px; /* Set the font size for all heading levels to 14px */
 }
