@@ -18,6 +18,81 @@ Asegurece de que R base y R studio esten bien instalados antes de comenzar con e
 
 ### Comandos basicos de R
 
+- Operaciones Básicas
+
+```{r}
+# Suma
+resultado_suma <- 2 + 2
+
+# Resta
+resultado_resta <- 2 - 2
+
+# Multiplicación
+resultado_multiplicacion <- 2 * 2
+
+# División
+resultado_division <- 2 / 2
+
+# Potencia
+resultado_potencia <- 2^2
+
+# Raíz Cuadrada
+resultado_raiz_cuadrada <- sqrt(2)
+
+# Logaritmo
+resultado_logaritmo <- log(2)
+
+# Exponencial
+resultado_exponencial <- exp(2)
+
+```
+
+- Creación de Variable Numérica
+
+```{r}
+un_valor <- 5
+dos_o_mas <- c(1, 4, 7)
+```
+
+- Creación de Variable Categórica
+
+```{r}
+un_valor_cat <- "Opcion1"
+dos_o_mas_cat <- c("Opcion1", "Opcion2")
+```
+
+-  Crear Tablas
+
+```{r}
+tabla1 <- data.frame(
+  VariableA = "A",
+  VariableB = "B",
+  VariableC = 1
+)
+
+tabla2 <- data.frame(
+  VariableA = c("A", "B", "C", "C", "A"),
+  VariableB = c("Uno", "Tres", "Uno", "Dos", "Uno"),
+  VariableC = c(34, 21, 32, 23, 21)
+)
+```
+
+
+- Guardar tabla
+
+```{r}
+
+write.csv(tabla2, "Tabla2.csv")
+```
+
+- Cargar tabla
+
+```{r}
+TablaNueva <- read.csv("Tabla2.csv")
+```
+
+
+
+
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
 
-Actualizando

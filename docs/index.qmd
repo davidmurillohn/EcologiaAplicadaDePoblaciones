@@ -1,7 +1,10 @@
 ---
-title: "Curso Ecologia de Poblaciones Aplicada"
-format: html
-editor: visual
+title: "Curso Ecología de Poblaciones Aplicada"
+output:
+  html:
+    theme: cosmo
+    toc: true
+    toc_float: true
 ---
 
 ## Introduccion
@@ -11,6 +14,8 @@ Este curso está diseñado para estudiantes y profesionales en áreas relacionad
 El propósito principal de este curso es servir como una guía que permita a los estudiantes desarrollar, interpretar e implementar técnicas de análisis de datos centradas en la Ecología de Poblaciones.
 
 ## Contenido
+
+[Asignaciones](Asiganciones.html)
 
 [Clase 1- Introducción al curso](Clase1.html)
 
@@ -32,6 +37,8 @@ El propósito principal de este curso es servir como una guía que permita a los
 
 [Clase 10- Metapoblaciones, estructura espacial y Análisis de viablidad poblacional](Clase10.html)
 
+*No dude en consultarnos ante cualquier inconveniente que surja durante el curso. Puede contactarnos a través de admi@hnbiology.org.*
+
+
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
 
-Actualizando..2

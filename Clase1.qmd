@@ -1,0 +1,25 @@
+---
+title: "Clase 1: Ecologia de Poblaciones"
+author: "David Murillo"
+format: pptx
+---
+
+## Que es una poblacion 
+
+Una población puede ser definida como un conjunto de individuos que se encuentran lo suficientemente cercanos geográficamente como para interactuar entre sí y llevar a cabo el proceso de reproducción.
+
+ - Esto implica la transmisión de genes entre los individuos.
+ 
+![](imagenesClases/poblacion.jpg)
+
+## Limites de supervivencia y reproduccion
+
+- Nicho 
+
+- Habitat
+
+## Modelos matematicos en Ecologia de poblaciones
+
+
+
+
