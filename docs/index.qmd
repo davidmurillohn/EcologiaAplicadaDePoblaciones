@@ -1,8 +1,10 @@
 ---
 title: "Curso Ecología de Poblaciones Aplicada"
-output:
- html:
-    cerulean: true
+format:
+  html:
+    toc: false
+    html-math-method: katex
+    css: styles.css
 ---
 
 ## Introduccion

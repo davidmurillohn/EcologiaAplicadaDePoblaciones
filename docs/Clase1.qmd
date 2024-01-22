@@ -1,7 +1,10 @@
 ---
 title: "Clase 1 Introduccion al Curso y uso de R"
-format: html
-editor: visual
+format:
+  html:
+    toc: false
+    html-math-method: katex
+    css: styles.css
 ---
 
 ## Temas
