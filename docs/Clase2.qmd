@@ -23,4 +23,116 @@ Para esta clase nos basaremos en: [Applied Population Ecology Principles and Com
 -   Efecto de aglomeración (crowding).
 -   Tipos de dependencia de la densidad.
 
+## Ejercicio en R
+
+El número total de individuos (*N*) en una región espacial establecida solo puede cambiar debido a nacimientos, muertes, inmigración o emigración. Las variaciones en el tamaño de la población durante un intervalo discreto de tiempo, de *t* a *t*+1, pueden describirse mediante la siguiente ecuación:
+
+$$N(t+1) = N(t) + B - D + I - E$$ 
+
+
+```{r}
+calcular_poblacion <- function(Nt, B, D, I, E) {
+  Nt2 = Nt + B - D + I - E
+  return(Nt2)
+}
+
+# Uso de la función
+
+Nt = 1000
+B = 50
+D = 30
+I = 10
+E = 15
+
+calcular_poblacion(Nt, B, D, I, E)
+```
+
+Numerosas poblaciones son cerradas, lo que implica que no hay inmigración ni emigración. En tales casos, el modelo para la población es:
+
+$$N(t+1) = N(t) + B - D$$ 
+
+
+```{r}
+calcular_poblacion <- function(Nt, B, D) {
+  Nt2 = Nt + B - D
+  return(Nt2)
+}
+
+# Uso de la función
+
+Nt = 2000
+B = 200
+D = 300
+
+
+calcular_poblacion(Nt, B, D)
+```
+
+En el caso de una especie anual, todos los adultos viven en el año *t*, mueren antes del año *t* + 1. Por lo tanto, el número de individuos en la población al año siguiente es igual al número de la población de este año, multiplicado por el promedio del número de descendientes por individuo.
+
+$$N(t+1) = N(t)f$$
+
+```{r}
+calcular_poblacion <- function(Nt, f) {
+  Nt2 = Nt * f
+  return(Nt2)
+}
+
+# Uso de la función
+
+Nt = 2000
+f = 1.2
+
+
+calcular_poblacion(Nt, f)
+```
+
+En el caso de una especie anual, la tasa de fecundidad es equivalente a la tasa de crecimiento de la población.
+
+$$N(t+1) = N(t)R$$ 
+
+```{r}
+calcular_poblacion <- function(Nt, R) {
+  Nt2 = Nt * R
+  return(Nt2)
+}
+
+# Uso de la función
+
+Nt = 2000
+R = 1.2
+
+
+calcular_poblacion(Nt, R)
+
+R = 0.8
+
+calcular_poblacion(Nt, R)
+
+```
+Si deseamos predecir el tamaño de la población en el tiempo *t* en el futuro próximo, a partir del tiempo 0, la ecuación para el crecimiento de la población puede expresarse de la siguiente manera:
+
+$$N(t) = N(0)R^t$$
+
+```{r}
+calcular_poblacion <- function(Nt, R, t) {
+  Nt2 = Nt * R^t
+  return(Nt2)
+}
+
+# Uso de la función
+
+Nt = 2000
+R = 1.2
+t = 5
+
+
+calcular_poblacion(Nt, R, t)
+
+R = 0.8
+
+calcular_poblacion(Nt, R, t)
+
+```
+
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)

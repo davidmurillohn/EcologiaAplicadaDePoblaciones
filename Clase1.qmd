@@ -2,24 +2,198 @@
 title: "Clase 1: Ecologia de Poblaciones"
 author: "David Murillo"
 format: pptx
+css: styles.css
 ---
 
-## Que es una poblacion 
+## Que es una población
 
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
 Una población puede ser definida como un conjunto de individuos que se encuentran lo suficientemente cercanos geográficamente como para interactuar entre sí y llevar a cabo el proceso de reproducción.
+:::
 
- - Esto implica la transmisión de genes entre los individuos.
- 
-![](imagenesClases/poblacion.jpg)
+::: {.column width="50%" .fragment}
+Esto implica la transmisión de genes entre los individuos.
+:::
 
-## Limites de supervivencia y reproduccion
-
-- Nicho 
-
-- Habitat
-
-## Modelos matematicos en Ecologia de poblaciones
+::::
 
 
 
 
+
+## Que es una subpoblación
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+Se puede describir como una fracción de una población en la que la variabilidad genética está restringida hasta cierto punto, pero se presume que la reproducción es panmíctica, es decir, que cada individuo tiene la misma probabilidad de reproducirse con cualquier otro individuo.
+:::
+
+::: {.column width="50%" .fragment}
+Cuando los individuos se agrupan y dichos grupos están adecuadamente dispersos o la reproducción está parcialmente limitada, se pueden identificar esos conjuntos como subpoblaciones.
+:::
+
+::::
+
+
+
+
+## Límites de supervivencia y reproducción
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+Las plantas y animales experimentan restricciones en términos de supervivencia y reproducción, aspectos intrínsecos a su nicho y hábitat.
+:::
+
+::: {.column width="50%" .fragment}
+
+-   Nicho
+
+El nicho de una especie puede conceptualizarse como su rol ecológico, definido por los límites de variables ecológicas en los cuales la especie no puede sobrevivir ni reproducirse.
+:::
+
+::::
+
+## Límites de supervivencia y reproducción
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+El *nicho fundamental* se define mediante todas las variables ambientales abióticas que afectan a la especie, representando los límites de las condiciones físicas que la especie puede tolerar.
+
+:::
+
+::: {.column width="50%" .fragment}
+En cambio, el *nicho efectivo* se define por ambas variables bióticas y abióticas. Esto incluye factores como la disponibilidad de alimento, la tolerancia a condiciones físicas, la competencia por recursos (como sitios de anidación o nutrientes) y la evitación de depredadores.
+
+Los nichos de una especie pueden variar en el tiempo y el espacio debido a que el comportamiento y la fisiología de los individuos de una población pueden ser distintos en diferentes momentos y lugares.
+
+:::
+
+::::
+
+## Límites de supervivencia y reproducción
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+-   Hábitat
+
+Un hábitat es el entorno donde una especie reside, y desde una perspectiva geográfica, es el lugar que reúne las condiciones esenciales para permitir la existencia de esa especie.
+:::
+::: {.column width="50%" .fragment}
+Los lugares que fueron hábitats en un momento dado pueden dejar de serlo en la siguiente temporada si las condiciones necesarias para la especie no se cumplen. En tales casos, los individuos en ese lugar pueden desplazarse, tener dificultades para reproducirse o incluso morir.
+
+:::
+::::
+
+## Modelos matemáticos en Ecología de poblaciones
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+
+La Ecología de poblaciones se ocupa de los cambios en la abundancia de organismos a lo largo del tiempo y el espacio. Aunque solemos describir esta variación con términos como "abundante", "raro", "rápido" o "lento", es importante destacar que la ecología de poblaciones es esencialmente una ciencia cuantitativa.
+:::
+
+::: {.column width="50%" .fragment}
+
+
+Para aplicar la ecología de poblaciones en la práctica, es necesario emplear métodos cuantitativos que permitan prever la evolución de las poblaciones y expresar los resultados de manera numérica.
+:::
+::::
+
+## Natalidad, Mortalidad, immigracion y emigracion
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+
+El número total de individuos (*N*) en una región espacial establecida solo puede cambiar debido a nacimientos, muertes, inmigración o emigración. Las variaciones en el tamaño de la población durante un intervalo discreto de tiempo, de *t* a *t*+1, pueden describirse mediante la siguiente ecuación:
+
+$$N(t+1) = N(t) + B - D + I - E$$ 
+
+Donde: *B* = Número total de nacimientos *D* = Número total de muertes *I* = Número total de individuos que ingresan a la region *E* = Número total de individuos que dejan la region
+
+:::
+
+::: {.column width="50%" .fragment}
+
+Numerosas poblaciones son cerradas, lo que implica que no hay inmigración ni emigración. En tales casos, el modelo para la población es:
+
+$$N(t+1) = N(t) + B - D$$ 
+
+:::
+::::
+
+## Crecimiento Exponencial
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+
+En lugar de expresar la natalidad y mortalidad en números de individuos, podemos hacerlo mediante tasas. En el caso de una especie anual, todos los adultos viven en el año *t*, mueren antes del año *t* + 1. Por lo tanto, el número de individuos en la población al año siguiente es igual al número de la población de este año, multiplicado por el promedio del número de descendientes por individuo.
+:::
+
+::: {.column width="50%" .fragment}
+
+$$N(t+1) = N(t)f$$
+
+Donde *f* representa la tasa de fecundidad.
+
+:::
+::::
+
+## Crecimiento Exponencial
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+En el caso de una especie anual, la tasa de fecundidad es equivalente a la tasa de crecimiento de la población.
+
+$$N(t+1) = N(t)R$$ 
+
+:::
+
+::: {.column width="50%" .fragment}
+
+*R* representa la tasa de aumento de la población; si *R* es superior a 1, la población crece, mientras que si *R* es inferior a 1, la población disminuye.
+
+:::
+::::
+
+## Crecimiento Exponencial
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+Si deseamos predecir el tamaño de la población para dos años, podemos aplicar la ecuación en dos ocasiones.
+
+$$N(t+2) = N(t+1)R$$
+
+$$N(t+1) = N(t)R$$ 
+:::
+
+::: {.column width="50%" .fragment}
+Al integrar estas ecuaciones,
+
+$$N(t+2) = N(t)RR$$ 
+$$N(t+2) = N(t)R^2$$
+:::
+::::
+
+## Crecimiento Exponencial
+
+Si deseamos predecir el tamaño de la población en el tiempo *t* en el futuro próximo, a partir del tiempo 0, la ecuación para el crecimiento de la población puede expresarse de la siguiente manera:
+
+$$N(t) = N(0)R^t$$
