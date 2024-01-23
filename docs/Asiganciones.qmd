@@ -10,4 +10,9 @@ A continuación, encontrará una serie de ejercicios que le ayudarán a compleme
 
 Construya un data frame que contenga 2 variables categóricas y 2 variables numéricas, cada una con 20 observaciones. La tabla debe llamarse "MiAsignacion1".
 
+## Asignación 2
+
+Utilizando la equacion $$N(t) = N(0)R^t$$ grafique el tamaño de la población para una especie x. Donde La población inicial se estableció en 321 individuos, la tasa de crecimiento es de 0.91, y la observación se extendió a lo largo de 82 años.
+
 A medida que avance en el curso, se irán agregando más asignaciones.
+

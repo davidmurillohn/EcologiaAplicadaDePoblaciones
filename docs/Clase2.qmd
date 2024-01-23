@@ -135,4 +135,30 @@ calcular_poblacion(Nt, R, t)
 
 ```
 
+## Ejercicio complejo
+
+Utilizando la equacion $$N(t) = N(0)R^t$$ grafique el tamaño de la población para una especie x. La población inicial se estableció en 540 individuos, la tasa de crecimiento es de 1.15, y la observación se extendió a lo largo de 50 años.
+
+```{r, warning=FALSE}
+Nt = 540
+R = 1.15
+t= 50
+
+Poblacion <- calcular_poblacion(Nt = 540, R= 1.15, t = c(1:50))
+Years <- 1:50
+
+Datos <- data.frame(Years = Years,
+                    Poblacion = Poblacion)
+
+
+library(tidyverse)
+
+ggplot(data= Datos, aes(x= Years, y= Poblacion))+
+  geom_point() +
+  theme_classic()
+
+```
+
+
+
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
