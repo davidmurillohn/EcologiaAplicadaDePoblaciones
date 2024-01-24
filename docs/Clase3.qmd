@@ -143,5 +143,8 @@ IC95 <- function(N, t, ES) {
 IC95(N = 3000, t= 2.776, ES= 316.2278)
 ```
 
+## Conteo por puntos
+
+
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
