@@ -147,6 +147,7 @@ IC95(N = 3000, t= 2.776, ES= 316.2278)
 
 Tipicamente se utilizan para estimar densidad de aves
 
+$$N = A{\sum x_i}/n\pi r^2$$
 
 
 ![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
