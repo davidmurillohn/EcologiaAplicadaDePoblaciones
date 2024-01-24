@@ -1,0 +1,43 @@
+---
+title: "Curso Ecología de Poblaciones Aplicada"
+format:
+  html:
+    toc: false
+    html-math-method: katex
+    css: styles.css
+---
+
+## Introduccion
+
+Este curso está diseñado para estudiantes y profesionales en áreas relacionadas con la Ecología, Conservación y Manejo de Recursos, entre otras disciplinas afines.
+
+El propósito principal de este curso es servir como una guía que permita a los estudiantes desarrollar, interpretar e implementar técnicas de análisis de datos centradas en la Ecología de Poblaciones.
+
+[Asignaciones](Asiganciones.html)
+
+[Clase 1- Introducción al curso](Clase1.html)
+
+[Clase 2- Crecimiento poblacional](Clase2.html)
+
+[Clase 3- Regulación de las poblaciones y tamaño poblacional](Clase3b.html)
+
+[Clase 4- Estimadores de abundancia y Uso de Rmark: Captura-Recaptura](Clase4.html)
+
+[Clase 5- Uso de Rmark: Supervivencia de nido](Clase5.html)
+
+[Clase 6- Uso de Distance: Abundancia por conteo por puntos y transectos](Clase6.html)
+
+[Clase 7- Uso de Unmarked: Estimación de abundancia por conteo por puntos](Clase7.html)
+
+[Clase 8- Uso de Unmarked: Estimación de abundancia por transecto](Clase8.html)
+
+[Clase 9- Introducción a spAbundance](Clase9.html)
+
+[Clase 10- Metapoblaciones, estructura espacial y Análisis de viabilidad poblacional](Clase10.html)
+
+
+*No dude en consultarnos ante cualquier inconveniente que surja durante el curso. Puede contactarnos a través de admi@hnbiology.org.*
+
+
+![HN Biology Investigation Academy](HN%20Cursos%20publicidad/HN%20Biology%20Inv%20large.jpg)
+
