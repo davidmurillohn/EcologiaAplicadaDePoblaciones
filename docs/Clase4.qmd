@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-En esta clase, nos adentraremos en las estimaciones de captura-recaptura mediante RMark. Para utilizar este paquete, será necesario instalar previamente el [programa MARK](http://www.phidot.org/software/mark/background/). Durante el curso, se enseñará detalladamente tanto la instalación como el uso de este paquete.
+EEn esta clase, nos adentraremos en las estimaciones de captura-recaptura mediante RMark. Para utilizar este paquete, será necesario instalar previamente el [programa MARK](http://www.phidot.org/software/mark/background/). Durante el curso, se enseñará detalladamente tanto la instalación como el uso de este paquete.
 
 Esta sección se encarga de instalar el paquete RMark necesario para nuestras evaluaciones.
 
