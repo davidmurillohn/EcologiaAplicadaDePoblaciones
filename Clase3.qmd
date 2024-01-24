@@ -1,0 +1,108 @@
+---
+title: "Clase 3: Ecologia de Poblaciones"
+author: "David Murillo"
+format: pptx
+css: styles.css
+---
+
+## Regulación de poblaciones.
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+Las poblaciones no pueden aumentar indefinidamente en la naturaleza.
+
+El crecimiento exponencial se da en condiciones ambientales favorables
+:::
+
+::: {.column width="50%" .fragment}
+Efecto Crowding
+
+"Efectos del hacinamiento" se refiere a la situación en la que la densidad de una población es alta, lo que puede tener diversos efectos en el comportamiento, la reproducción y la salud de los individuos dentro de esa población.
+:::
+
+::::
+
+
+
+
+
+## Efecto Crowding
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+El hacinamiento provoca:
+
+- Aumento en la dispersión
+
+- Emigración
+
+- Incremento en la mortalidad
+
+:::
+
+::: {.column width="50%" .fragment}
+
+- Disminución en la reproducción
+
+- Autoafinamiento
+
+- Territorios
+
+:::
+
+::::
+
+
+
+
+## Tipos de dependencia de densidad 
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+Competencia de Scrabble
+:::
+
+::: {.column width="50%" .fragment}
+
+Competencia Contest
+:::
+
+::::
+
+## Tipos de dependencia de densidad 
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+Modelo Ceiling
+
+:::
+
+::: {.column width="50%" .fragment}
+
+Efectos Allee 
+
+:::
+
+::::
+
+## Tipos de dependencia de densidad 
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+Capacidad de carga
+
+:::
+::: {.column width="50%" .fragment}
+Capacidad de carga para poblaciones humanas
+
+:::
+::::
+
