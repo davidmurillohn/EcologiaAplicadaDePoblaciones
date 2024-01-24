@@ -4,13 +4,12 @@ format: html
 editor: visual
 ---
 
-En la tercera sesión, se explorarán los estimadores de población, partiendo desde el modelo más básico:
 
-$$N(t+1) = N(t)R$$
+### Regulación de Poblaciones
 
-Se abordará la determinación del tamaño poblacional en un tiempo dado:
+-   Efecto de aglomeración (crowding).
+-   Tipos de dependencia de la densidad.
 
-$$N(t)= N(0) \times R^t$$
 
 Examinaremos los estimadores de tamaño poblacional mediante el método de captura-recaptura:
 

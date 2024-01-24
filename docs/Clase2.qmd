@@ -16,12 +16,6 @@ Para esta clase nos basaremos en: [Applied Population Ecology Principles and Com
 -   Límites de supervivencia y reproducción: Nicho y Hábitat.
 -   Modelos matemáticos en Ecología de Poblaciones.
 -   Natalidad, Mortalidad, Inmigración y Emigración.
--   Crecimiento Poblacional.
-
-### Regulación de Poblaciones
-
--   Efecto de aglomeración (crowding).
--   Tipos de dependencia de la densidad.
 
 ## Ejercicio en R
 

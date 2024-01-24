@@ -17,11 +17,11 @@ El propósito principal de este curso es servir como una guía que permita a los
 
 [Clase 1- Introducción al curso](Clase1.html)
 
-[Clase 2- Crecimiento poblacional y regulación de las poblaciones](Clase2.html)
+[Clase 2- Crecimiento poblacional](Clase2.html)
 
-[Clase 3- Estimadores de abundancia y tamaño poblacional](Clase3.html)
+[Clase 3- Regulación de las poblaciones y tamaño poblacional](Clase3.html)
 
-[Clase 4- Uso de Rmark: Captura-Recaptura](Clase4.html)
+[Clase 4- Estimadores de abundancia y Uso de Rmark: Captura-Recaptura](Clase4.html)
 
 [Clase 5- Uso de Rmark: Supervivencia de nido](Clase5.html)
 
