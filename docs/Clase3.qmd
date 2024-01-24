@@ -1,5 +1,5 @@
 ---
-title: "Clase3"
+title: "Clase 3: Regulación de Poblaciones y Estimadores de abundancia"
 format: html
 editor: visual
 ---
